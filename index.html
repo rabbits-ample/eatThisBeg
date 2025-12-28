@@ -62,7 +62,7 @@ function makeGrid(){
         /*The reason the line below this wasn't working was because this comma v is registering as a second paramter*/
             squares[y + "," + x].setAttribute("onclick", "verifyPiece(" + x + "," + y + ")")
             if(squares[y + "," + x].innerHTML == "pawn"){
-             squares[y + "," + x].style.backgroundImage = "url(image.png)"
+             squares[y + "," + x].style.backgroundImage = "url(pawnPiece.png)"
             }
             if(squares[y + "," + x].innerHTML == "bishop"){
              squares[y + "," + x].style.backgroundImage = "url(bishops.png)"
